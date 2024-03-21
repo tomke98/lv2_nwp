@@ -1,0 +1,148 @@
+INSERT INTO diplomski_radovi (id_rada, naziv_rada, tekst_rada, link_rada, oib_tvrtke) VALUES ('623dbba3b6eba', 'Ponuda završnih i diplomskih radova iz područja automatike', 'Ponuda završnih i diplomskih radova iz područja automatike
+
+Kao i prošlih godina, tvrtka TEO-Belišće d.o.o. nudi zainteresiranim studentima su-mentoriranje završnih i diplomskih radova iz područja automatike (industrijski procesi, automatizacija postrojenja, upravljanje strojevima, PLC i HMI/SCADA aplikacije, fieldbus komunikacija i sl.) i projektiranja za industriju (EPLAN, konstruiranje upravljačkih ormara i sl).
+
+Primjeri prošlogodišnjih radova:  Parametriranje frekvencijskog pretvarača Siemens Sinamics G120C Programsko rješenje temeljeno na SIMATIC 1500 za prijenos alarma GSM tehnologijom Regulacija temperature u industrijskoj kotlovnici primjernom Simatic 1500 kompaktnog regulatora
+
+Zainteresirani studenti se za detalje mogu javiti na e-mail adresu teo@teo-belisce.hr 							', 'https://stup.ferit.hr/2018/12/03/ponuda-zavrsnih-i-diplomskih-radova-iz-podrucja-automatike-2/', '2147483647');
+INSERT INTO diplomski_radovi (id_rada, naziv_rada, tekst_rada, link_rada, oib_tvrtke) VALUES ('623dbba41fa70', 'TELEMETRIJA (VODOVOD)', 'Telemetrija obuhvata slijedeće:
+
+1 Energetska šema
+
+2 Komunikacije (kroz energetski kabel, WiFi, LAN)
+
+3 Podešavanje parametara na terenu
+
+4 Puštenje u rad
+
+Ova tema rada je operativna od 15.05.2018. do 25.06.2018.
+
+&nbsp; 							', 'https://stup.ferit.hr/2018/05/15/telemetrija-vodovod/', '2147483647');
+INSERT INTO diplomski_radovi (id_rada, naziv_rada, tekst_rada, link_rada, oib_tvrtke) VALUES ('623dbba430331', 'Tema diplomskog rada: Optimiranje  proizvodnje upravljivog distribuiranog izvora u distributivnoj mreži s neupravljivim distribuiranim izvorima', 'Naslov teme: Optimiranje  proizvodnje upravljivog distribuiranog izvora u distributivnoj mreži s neupravljivim distribuiranim izvorima
+
+&nbsp;
+
+Opis teme: U radu je potrebno opisati ukratko tehnologije izvora distribuirane proizvodnje električne energije koje se koriste u distributivnim mrežama. Pri naglasiti za svaku tehnologiju da li se s obzirom na vremensko promjenjivost izvora energije radi o upravljivom ili neupravljivom distribuiranom izvoru. Na primjeru srednje naponske 20 (10) kV distributivne mreže s instaliranim upravljivim i neupravljivim izvorima potrebno je simulacijama na računalu odrediti optimalnu proizvodnju upravljivog distribuiranog izvora. Optimizaciju obaviti za zadane dnevne profile opterećenja i intenziteta energetskih izvora neupravljive distribuirane proizvodnje. Kao simulacijski alat koristiti OpenDSS ili (i) DSSim računalni program, a za provedbu optimizacije koristiti gotove alate dostupne u pragramskim paketima u PYTHON (preporuka) ili MATLAB okruženju.
+
+&nbsp;
+
+Mentor: doc. M. Barukčić
+
+&nbsp;
+
+Sumentor: Dalibor Vlaisavljević, dipl. ing. el.
+
+&nbsp;
+
+Tvrtka: Elektra Virovitica, Služba za realizaciju investicijskih projekata i pristup mreži
+
+&nbsp;
+
+&nbsp; 							', 'https://stup.ferit.hr/2018/02/07/tema-diplomskog-rada-optimiranje-proizvodnje-upravljivog-distribuiranog-izvora-u-distributivnoj-mrezi-s-neupravljivim-distribuiranim-izvorima/', '2147483647');
+INSERT INTO diplomski_radovi (id_rada, naziv_rada, tekst_rada, link_rada, oib_tvrtke) VALUES ('623dbba435bc9', 'Diplomski radovi – FPGA (2 teme)', 'Tema 1: Analiza i implementacija adaptacijskih algoritama korištenih u adaptivnom prijenosu video signala koji u obzir uzimaju veličinu segmenta (Analysis and implementation of segment aware rate adaptation algorithms used in dynamic adaptive streaming)
+
+Kako bi se krajnjem korisniku pružila najbolja moguća kvaliteta sadržaja, predložen je standard za prijenos multimedijskog signala zasnovan na HTTP protokolu koji se koristi za prijenos vezanih i nevezanih prijenosnih tokova multimedijskih podataka. MPEG DASH definira način obavještavanja korisnika o nizu prijenosnih tokova različite kvalitete, zajedno s informacijama potrebnim za odabir odgovarajućeg prijenosnog toka. Također definira formate medijskih datoteka pogodnih za adaptivni prijenos. Postojanje različitih formata datoteka omogućuje učinkovito i neprimjetno prebacivanje između prijenosnih tokova različite kvalitete, što omogućuje prilagodbu promjenjivim uvjetima u mreži bez zaustavljanja prikaza video zapisa. Algoritmi za adaptaciju brzine prijenosa koji se koriste u MPEG DASH klijentima mogu se podijeliti u nekoliko većih skupina koje je u ovom radu potrebno analizirati. Nadalje, potrebno je implementirati određena postojeća rješenja te dati usporedbu tih rješenja na temelju parametara kvalitete usluge. Rješenja koja je potrebno implementirati nadogradnja su na postojeću implementaciju osnovnog adaptacijskog algoritma. U radu je potrebno koristiti se C i C++ programskim jezikom.
+
+mentor: Prof.dr.sc. Drago Žagar
+
+sumentori: mag.ing.el. Jelena Vlaović i mag.ing.el. Matija Pul
+
+&nbsp;
+
+Tema 2: Analiza i implementacija adaptacijskih algoritama korištenih u adaptivnom prijenosu video signala koji u obzir uzimaju kvalitetu korisničkog iskustva (Analysis and implementation of QoE aware rate adaptation algorithms used in dynamic adaptive streaming)
+
+MPEG DASH definira način obavještavanja korisnika o nizu prijenosnih tokova različite kvalitete, zajedno s informacijama potrebnim za odabir odgovarajućeg prijenosnog toka. Postojanje različitih formata datoteka omogućuje učinkovito i neprimjetno prebacivanje između prijenosnih tokova različite kvalitete, što omogućuje prilagodbu promjenjivim uvjetima u mreži bez zaustavljanja prikaza video zapisa. Utjecaj prijelaznih pojava na kvalitetu posebno je važan za DASH sustave te pogrešne odluke u odabiru razine kvalitete mogu imati veliki utjecaj na opaženu kvalitetu. Dok parametri kvalitete usluge mogu dati dobar uvid u ono što se događa u mreži, kvalitetu korisničkog iskustva opisuju parametri iskustva samog korisnika. Na opaženu kvalitetu različito utječu npr. kvaliteta slike, prostorna ili vremenska adaptacija i slični parametri video zapisa. Ovisno o sadržaju, prijelaz s jedne razine kvalitete na drugu više će ili manje utjecati na opaženu kvalitetu. Dakle, kada se priprema sadržaj za prijenos, potrebno je izvršiti i analizu sadržaja kako bi se omogućila poboljšana segmentacija video zapisa i kako bi se na taj način izabrao najpovoljniji scenarij adaptacije. U radu je potrebno analizirati dostupne metrike za analizu kvalitete korisničkog iskustva. Nadalje, potrebno je analizirati i implementirati određena postojeća rješenja adaptacijskih algoritama te dati usporedbu tih rješenja na temelju parametara kvalitete korisničkog iskustva. Rješenja koja je potrebno implementirati nadogradnja su na postojeću implementaciju osnovnog adaptacijskog algoritma. U radu je potrebno koristiti se C i C++ programskim jezikom.
+
+mentor: Prof.dr.sc. Snježana Rimac-Drlje
+
+sumentori: mag.ing.el. Jelena Vlaović i mag.ing.comp. Danijel Babić 							', 'https://stup.ferit.hr/2018/01/31/diplomski-radovi-fpga-2-teme/', '2147483647');
+INSERT INTO diplomski_radovi (id_rada, naziv_rada, tekst_rada, link_rada, oib_tvrtke) VALUES ('623dbba43e053', 'Diplomski radovi &#8211; MPEG DASH (2 teme)', 'Kratki uvod u tematiku
+
+Sve veća složenost ADAS (engl. Advanced Driver-Assistance System) algoritama zahtjeva sukcesivno testiranje i davanje potvrda o validnim i nedvosmislenim odlukama algoritama. Danas je ovo vrlo složen proces, uzimajući u obzir da svaki put kada se napravi određena promjena algoritma tu promjenu treba ispitati direktno na poligonu ili u realnim uvjetima u prometu. Gledajući cijeli sustav, s jedne strane figurira cijena poligona, a s druge rizici ispitivanja algoritama u realnim uvjetima. Iz ovih razloga je potekla motivacija za projektiranjem ispitnog sustava s kojim bi se sustavi za računalnu percepciju okoline vozila mogli testirati u zatvorenim prostorijama – laboratorijima.
+
+AMV ADAS Grabber predstavlja više-kanalni video uređaj za simultano preuzimanje i reprodukciju video sadržaja. Uređaj ADAS Grabber omogućuje prikupljanje, a ujedno i reprodukciju video signala s devet kamera koje su prostorno raspoređene na vozilu. Također, podržava prijenos podataka (video signala) velikim brzinama putem PCIe sučelja kao i upravljanje samim uređajem.
+
+Arhitektura ADAS Grabber uređaja: Uređaj se povezuje na ispitivanu jedinicu preko koaksijalnih FPD Link III kablova za prijem i reprodukciju video signala. Centralna procesorska jedinica je realizirana u hibridnoj programabilnoj mreži Zynq XC7Z030, koja osim FPGA dijela sadrži i dvojezgreni procesor ARM® Cortex™-A9.  Na računalu se nalazi programska podrška koja obuhvaća upravitelje radom uređaja (PCIe) kao i korisnička aplikacija za snimanje/puštanje video sadržaja.
+
+Općenita priča opisana iznad zajednička je za svih 8 tema koje slijede. Posebno je definiran u nastavku zadatak svake od 8 tema.
+
+&nbsp;
+
+Tema 1: Korisnička aplikacija uređaja za snimanje i reprodukciju video sadržaja za verifikaciju ADAS algoritama (User application for recording and playback of video content for verification of ADAS algorithms)
+
+Radi bržeg testiranja i verifikacije algoritama za pomoć vozaču u vožnji, razvijaju se uređaji za snimanje i reprodukciju podataka koji simuliraju realno okruženje vozila (između ostalog i video sadržaj).  U okviru ovog zadatka potrebno je osmisliti i napraviti korisničku aplikaciju za AMV Grabber uređaj koja će se izvršavati na PC računalu. Ova aplikacija treba kroz korisničko sučelje omogućiti prikaz dostupnih kamera (prednja, zadnja, bočna, za praćenje vozača i sl.), odabir kamera za snimanje/reprodukciju, izbor putanje izvorišne/odredišne datoteke, pokretanje i zaustavljanje snimanja odnosno reprodukcije, kao i prikaz snimljenog sadržaja. Za realizaciju funkcionalnosti potrebno je koristiti komponente koje omogućavaju komunikaciju s AMV Grabber uređajem, kao i snimanje i reprodukciju sadržaja. Aplikaciju je potrebno realizirati u Windows radnom okruženju.
+
+mentor: Doc.dr.sc. Mario Vranješ
+
+sumentor: mag.ing.el. Matija Pul
+
+&nbsp;
+
+Tema 2: Programska podrška za snimanje video sadržaja za verifikaciju ADAS algoritama na strani PC računala
+
+ADAS algoritmi se sve više testiraju u laboratorijama s unaprijed snimljenim podacima (uključujući video podatke). U tu svrhu se razvijaju uređaji koji podatke snimaju s kamera i dostavljaju do PC računala koje ih skladišti na disk. U okviru ovog zadatka potrebno je napraviti programsku podršku za snimanje video sadržaja na strani PC računala koja komunicira i dobavlja sadržaj s namjenskog uređaja za snimanje. Potrebno je realizirati protokol za komunikaciju preko PCIe sabirnice između PC računala i uređaja za snimanje video sadržaja &#8211; AMV Grabber. Ova komponenta treba podržavati kontrolne poruke, slanje zahtjeva za video sadržajem kao i prihvat video sadržaja preko PCIe sabirnice i njegovo smještanje na disk u stvarnom vremenu za podesiv broj kamera (do 9 kamera). Rješenje je potrebno realizirati u Windows radnom okruženju, u programskom jeziku C.
+
+mentor: Doc.dr.sc. Ratko Grbić
+
+sumentor: mag.ing.el. Matija Pul
+
+&nbsp;
+
+Tema 3: Programska podrška za reprodukciju video sadržaja za verifikaciju ADAS algoritama na strani PC računala
+
+ADAS algoritmi se sve više testiraju u laboratorijama s unaprijed snimljenim podacima (uključujući video podatke). Ovi podaci se skladište na diskovima i u toku testiranja i verifikacije ADAS algoritama dostavljaju do ADAS platforme (na kojoj se izvršava algoritam) preko namjenskih uređaja za reprodukciju sadržaja. U okviru ovog zadatka potrebno je napraviti programsku podršku za reprodukciju video sadržaja na strani PC računala koje komunicira i dostavlja sadržaj namjenskom uređaju za reprodukciju. Potrebno je realizirati protokol za komunikaciju preko PCIe sabirnice između PC računala i uređaja za reprodukciju video sadržaja &#8211; AMV Grabber. Ova komponenta treba podržavati kontrolne poruke, čitanje video sadržaja s diska, kao i njegovo slanje preko PCIe sabirnice u stvarnom vremenu (30 slika u sekundi) za podesiv broj kamera (do 9 kamera). Rješenje je potrebno realizirati u Windows radnom okruženju, u programskom jeziku C.
+
+mentor: Doc.dr.sc. Ratko Grbić
+
+sumentor: mag.ing.el. Matija Pul
+
+&nbsp;
+
+Tema 4: Razvoj upravljačkog programa PCIe sabirnicom na strani PC računala
+
+ADAS algoritmi se sve više testiraju u laboratorijama s unaprijed snimljenim podacima (uključujući video podatke). U tu svrhu se razvijaju uređaji koji podatke snimaju s kamera, skladište na PC računalo i kasnije dostavljaju do ADAS platforme. Zahtjevi za ove uređaje su rad u realnom vremenu, tj. veliku količinu video podataka je potrebno prenijeti s PC računala na uređaj i obrnuto. Jedna od sabirnica preko koje je moguće prenijeti više video tokova je PCIe sabirnica. U okviru ovog zadatka potrebno je napraviti upravljački program (engl. driver) PCIe sabirnicom koji će omogućiti komunikaciju i prijenos podataka s uređajem za snimanje/verifikaciju u realnom vremenu. Rješenje je potrebno realizirati u Windows radnom okruženju, u programskom jeziku C.
+
+mentor: Doc.dr.sc. Ratko Grbić
+
+sumentor: mag.ing.el. Matija Pul
+
+&nbsp;
+
+Tema 5: Snimanje i reprodukcija video signala uz podršku za više kamera zasnovano na FPGA
+
+Testiranje i verifikacija algoritama za pomoć vozaču predstavlja složen proces i zahtijeva vrijeme i resurse ukoliko se izvodi u stvarnom okruženju. Kako bi se testiranje i verifikacija ubrzali, okruženje se snima (video i drugi podaci) i kasnije reproducira u laboratorijima. U tu svrhu razvijaju se uređaji za snimanje i reprodukciju video sadržaja. Ovaj zadatak je potrebno realizirati na FPGA dijelu jednog takvog uređaja, koji sadrži centralnu procesorsku jedinicu Zynq XC7Z030. U sklopu zadatka potrebno je realizirati podršku za dva tipa kamera (koje daju RAW i YUV format) koja će video signal s kamera slati putem PCIe sabirnice za potrebe snimanja, odnosno primati video signal putem PCIe i slati na video izlaze za potrebe reprodukcije. Također je potrebno osigurati rad u realnom vremenu (30 slika u sekundi) za do 9 kamera, koje pripadaju podržanim tipovima kamera. Rješenje je potrebno realizirati korištenjem VHDL programskog jezika.
+
+mentor: Izv.prof.dr.sc. Marijan Herceg
+
+sumentor: mag.ing.comp. Danijel Babić
+
+&nbsp;
+
+Tema 6: Programska podrška za reprodukciju snimljenog video sadržaja na namjenskom uređaju
+
+Testiranje i verifikacija algoritama za pomoć vozaču predstavlja složen proces i zahtijeva vrijeme i resurse ukoliko se izvodi u stvarnom okruženju. Kako bi se testiranje i verifikacija ubrzali, okruženje se snima (video i drugi podaci) i kasnije reproducira u laboratorijima. U tu svrhu razvijaju se uređaji za snimanje i reprodukciju video sadržaja. U okviru ovog zadatka potrebno je omogućiti podršku za reprodukciju prethodno snimljenog video sadržaja na jednom takvom uređaju. Rješenje je potrebno realizirati na centralnoj procesorskoj jedinici Zynq XC7Z030, na ARM jezgri, u programskom jeziku C, gdje prethodno snimljeni video sadržaj treba dobavljati s računala preko PCIe sabirnice, smještati u memoriju i slati k uređaju koji se testira preko video izlaza. Reprodukcija video sadržaja treba raditi u realnom vremenu (30 slika u sekundi) za do devet kamera.
+
+mentor: Izv.prof.dr.sc. Marijan Herceg
+
+sumentor: mag.ing.comp. Danijel Babić
+
+&nbsp;
+
+Tema 7: Programska podrška za prikupljanje snimljenog video sadržaja i komunikaciju s računalom uređaja za snimanje podataka
+
+Testiranje i verifikacija algoritama za pomoć vozaču predstavlja složen proces i u tu svrhu se razvijaju uređaji koji pomažu razvoj u laboratorijima sa što pouzdanijim podacima. U okviru ovog zadatka potrebno je realizirati programsku podršku koja sudjeluje u prikupljanju tih podataka (video sadržaja) na samom uređaju za snimanje. Programska podrška je zadužena za prebacivanje dobavljenog video sadržaja s kamera k računalu. Rješenje podrazumijeva realizaciju mehanizma komunikacije s računalom preko PCIe sabirnice uključujući, kako komunikaciju kontrolnih poruka, tako i video sadržaja. Rješenje je potrebno realizirati u realnom vremenu (30 slika u sekundi) za najviše devet kamera na ARM jezgri uređaja za snimanje koji sadrži centralnu procesorsku jedinicu Zynq XC7Z030.
+
+mentor: Izv.prof.dr.sc. Marijan Herceg
+
+sumentor: mag.ing.comp. Danijel Babić
+
+&nbsp;
+
+Tema 8: Programska podrška za upravljanje kamerama uređaja za snimanje podataka
+
+U okviru ovog zadatka potrebno je realizirati mehanizam upravljanja kamerama na uređaju koji vrši snimanje video sadržaja, koji se kasnije koristi za testiranje i verifikaciju algoritama za pomoć vozaču. Rješenje je potrebno realizirati u programskom jeziku C, u okviru ARM jezgre centralne procesorske jedinice Zynq XC7Z030, koja predstavlja sastavni dio uređaja za snimanje video sadržaja. Uređaj podržava priključivanje najviše devet kamera. Kontrolna jedinica podrazumijeva prepoznavanje broja priključenih kamera, kao i kontrolu odgovarajućih video DMA kontrolera koji sudjeluju u snimanju video sadržaja. Potrebno je podržati dvije vrste kamera (kamere koje daju RAW i YUV format na izlazu).
+
+mentor: Izv.prof.dr.sc. Marijan Herceg
+
+sumentor: mag.ing.comp. Danijel Babić 							', 'https://stup.ferit.hr/2018/01/31/diplomski-radovi-mpeg-dash-2-teme/', '2147483647');
+INSERT INTO diplomski_radovi (id_rada, naziv_rada, tekst_rada, link_rada, oib_tvrtke) VALUES ('623dbba448ff0', 'Diplomski radovi – AMV Grabber teme (8 tema)', '', 'https://stup.ferit.hr/2018/01/31/diplomski-radovi-amv-grabber-teme-8-tema/', '2147483647');

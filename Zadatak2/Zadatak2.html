@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadatak 2</title>
+  </head>
+  <body>
+    <!--pozivanje datoteke upload.php s metodom post-->
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      <!--odabir dokumenta ili slike za upload-->
+      <input type="file" name="file" />
+      <!--objava datoteke ili slike klikom na gumb-->
+      <input type="submit" name="submit" value="Upload" />
+    </form>
+    <br />
+    <!--pozivanje datoteke dohvati.php s metodom post-->
+    <form action="dohvati.php" method="post">
+      <!--dohvacanje kriptiranog dokumenta-->
+      <input type="submit" name="submit" value="Fetch" />
+    </form>
+  </body>
+</html>
